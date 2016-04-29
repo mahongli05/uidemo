@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">com.ui.guide</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="show_guide">show guide</string>
+    <string name="hide_guide">hide guide</string>
+
+</resources>

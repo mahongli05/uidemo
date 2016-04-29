@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/show_guide"
+        android:background="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <RelativeLayout
+        android:id="@+id/guide_contaier"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+
+	    <com.ui.demo.guide.GuideTargetView
+	        android:id="@+id/guide_target"
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp" />
+
+	    <View
+	        android:id="@+id/guide_top"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignBottom="@id/guide_target"
+	        android:background="@color/guide_bg_color"
+	        android:layout_marginBottom="60dp"/>
+
+	   <View
+	        android:id="@+id/guide_bottom"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_below="@id/guide_target"
+	        android:background="@color/guide_bg_color"
+	        android:paddingBottom="60dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
