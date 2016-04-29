@@ -1,14 +1,19 @@
 # uidemo
 ## guide view
+效果图：
+没显示guide
+![image](https://github.com/mahongli05/uidemo/tree/master/image/guide_show)
+显示guide高亮
+![image](https://github.com/mahongli05/uidemo/tree/master/image/guide_show)
 
 实现透明蒙层的引导GuideTargetView，具体功能如下：
- 1. 持目标区域完全透明，其他区域半透明
+ 1. 使目标区域完全透明，其他区域半透明
  2. 前区域穿透点击：
  
 使用方式：
  1. 设置目标区域。
     	View view = findViewById(R.id.content_root);
-      Rect rect = ViewUtil.getRelativeRect(view, mTargetView);
+		Rect rect = ViewUtil.getRelativeRect(view, mTargetView);
     	mGuideTargetView.updateTargetViewRelativeRect(view, rect);
     其中content_root是用来计算相对位置的一个参考view，mTargetView是需要高亮（全透明）显示的view。先计算mTargetView相对参考view的位置，在
     在GuideTargetView中调整高亮的显示位置。
