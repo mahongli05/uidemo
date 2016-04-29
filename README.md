@@ -2,9 +2,9 @@
 ## guide view
 效果图：
 没显示guide
-![image](https://github.com/mahongli05/uidemo/tree/master/image/guide_show)
+![image](https://github.com/mahongli05/uidemo/tree/master/image/guide_show.png)
 显示guide高亮
-![image](https://github.com/mahongli05/uidemo/tree/master/image/guide_show)
+![image](https://github.com/mahongli05/uidemo/tree/master/image/guide_show.png)
 
 实现透明蒙层的引导GuideTargetView，具体功能如下：
  1. 使目标区域完全透明，其他区域半透明
