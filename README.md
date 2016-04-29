@@ -1,9 +1,13 @@
 # uidemo
 ## guide view
 效果图：
+
 没显示guide
+
 ![image](https://raw.githubusercontent.com/mahongli05/uidemo/master/image/guide_hide.png)
+
 显示guide高亮
+
 ![image](https://raw.githubusercontent.com/mahongli05/uidemo/master/image/guide_show.png)
 
 实现透明蒙层的引导GuideTargetView，具体功能如下：
