@@ -2,13 +2,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical" >
 
     <Button
         android:id="@+id/guide"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="guide example"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="guide example" />
+
+    <Button
+        android:id="@+id/infinit_slide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="infinit slide pagerview" />
 
 </LinearLayout>

@@ -22,9 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name="com.ui.demo.guide.GuideActivity" />
+        <activity android:name="com.ui.demo.guide.GuideActivity" />
+        <activity android:name="com.ui.demo.infinitviewpager.SlidePagerViewActivity" />
     </application>
 
 </manifest>

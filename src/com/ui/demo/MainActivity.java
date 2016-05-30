@@ -8,6 +8,7 @@ import android.view.View.OnClickListener;
 
 import com.example.com.ui.guide.R;
 import com.ui.demo.guide.GuideActivity;
+import com.ui.demo.infinitviewpager.SlidePagerViewActivity;
 
 public class MainActivity extends Activity {
 
@@ -25,6 +26,15 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(MainActivity.this, GuideActivity.class);
+				startActivity(intent);
+			}
+		});
+
+        findViewById(R.id.infinit_slide).setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, SlidePagerViewActivity.class);
 				startActivity(intent);
 			}
 		});
