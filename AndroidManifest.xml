@@ -29,6 +29,7 @@
         <activity android:name="com.ui.demo.guide.GuideActivity" />
         <activity android:name="com.ui.demo.infinitviewpager.SlidePagerViewActivity" />
         <activity android:name="com.ui.demo.crop.PhotoCropActivity" />
+        <activity android:name="com.ui.demo.rounddrawable.RoundDrawableActivity" />
     </application>
 
 </manifest>

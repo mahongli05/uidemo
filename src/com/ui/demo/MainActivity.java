@@ -10,6 +10,7 @@ import com.example.com.ui.guide.R;
 import com.ui.demo.crop.PhotoCropActivity;
 import com.ui.demo.guide.GuideActivity;
 import com.ui.demo.infinitviewpager.SlidePagerViewActivity;
+import com.ui.demo.rounddrawable.RoundDrawableActivity;
 
 public class MainActivity extends Activity implements OnClickListener {
 
@@ -25,6 +26,7 @@ public class MainActivity extends Activity implements OnClickListener {
     	findViewById(R.id.guide).setOnClickListener(this);
         findViewById(R.id.unlimited_slide).setOnClickListener(this);
         findViewById(R.id.photo_select).setOnClickListener(this);
+        findViewById(R.id.round_drawable).setOnClickListener(this);
     }
 
     @Override
@@ -42,7 +44,16 @@ public class MainActivity extends Activity implements OnClickListener {
             case R.id.photo_select:
                 showPhotoSelect();
                 break;
+
+            case R.id.round_drawable:
+                showRoundDrawable();
+                break;
         }
+    }
+
+    private void showRoundDrawable() {
+        Intent intent = new Intent(MainActivity.this, RoundDrawableActivity.class);
+        startActivity(intent);
     }
 
     private void showGuideActivity() {

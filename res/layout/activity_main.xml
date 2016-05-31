@@ -25,4 +25,11 @@
         android:gravity="center"
         android:text="photo select" />
 
+    <Button
+        android:id="@+id/round_drawable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="round drawable" />
+
 </LinearLayout>
